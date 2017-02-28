@@ -29,5 +29,7 @@ namespace HCTakeHome.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<HCTakeHome.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }
